@@ -46,14 +46,14 @@
         D. false
         E. false
         F. true 
-    15. == checks converted values between two objects. It automatically converts both object into the same type then checks their equality.
-        === is a strick equality check. It does not do the conversation when checking both objects. It's more restrictive in determining equality.
-    17.  it would return an array with the values [ 2, 4, 6 ]. doSomething was passed in as variable by modifyArray, so 
+    1.  == checks converted values between two objects. Itonverts both object into the same type then checks their equality.
+        === is a strick equality check. It doesn't convert when checking both objects. It's more restrictive in determining equality.
+    2.   it would return an array with the values [ 2, 4, 6 ]. doSomething was passed in as variable by modifyArray, so 
     it does not execute or need its parameter until it's called upon. The name for doSomething in modifyArray is "callback".
      When "calledback" is being called, contents of array is passed to calledback and it will then go to doSomething's 
      method to be processed which is mutiplying them by 2 then returning it. 
      The new values are stored in newArr and newArr is returned at the end.
-    19. 
+    1.  
         1
         4
         3
